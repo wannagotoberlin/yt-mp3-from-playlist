@@ -1,4 +1,4 @@
-# Word Of The Day Script
+# MP3s from YouTube playlist
 
 A ruby script that downloads mp3s of all the videos in a playlist.
 
