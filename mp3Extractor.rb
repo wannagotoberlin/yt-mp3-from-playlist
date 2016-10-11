@@ -69,7 +69,7 @@ result.each do |vid|
 
 	# Try downloading the current mp3
 	begin
-		`wget -O '#{song_title}' #{dl_link}`
+		`wget -O '#{song_title}.mp3' #{dl_link}`
 	rescue Exception => e
 		puts e
 		puts "Failed to download #{vid}"
